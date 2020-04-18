@@ -28,7 +28,7 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 			"Location": "https://pythonmagic.com",
 		},
 		StatusCode: 301,
-		Body: nil, //      "Hello AWS Lambda and Netlify",
+		Body: "", //      "Hello AWS Lambda and Netlify",
 	}, nil
 }
 
